@@ -1,0 +1,69 @@
+[00:00:02.955] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:03.233] Server  LOG      ✓ Ready in 2.5s
+[00:00:06.375] Server  LOG      ○ Compiling / ...
+[00:00:08.183] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:44.841] Server  LOG      ✓ Compiled in 119ms
+[00:07:56.841] Server  LOG      ✓ Compiled in 122ms
+[00:11:25.768] Server  LOG      ✓ Compiled in 88ms
+[00:13:28.205] Server  LOG      ✓ Compiled in 72ms
+[00:20:54.843] Server  LOG      ✓ Compiled in 80ms
+[00:21:26.079] Server  LOG      ✓ Compiled in 79ms
+[00:21:27.225] Browser ERROR   ./components/chess-game.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import { useState, useCallback, useEffect, useRef } from "react";
+  4 | import { }
+> 5 | import { ChessBoard } from "./chess-board";
+    | ^^^^^^
+  6 | import { MoveHistoryPanel } from "./move-history-panel";
+  7 | import { AIFeedback } from "./ai-feedback";
+  8 | import { GameSetupModal } from "./game-setup-modal";
+
+Expected 'from', got 'import'
+
+Import trace:
+  Server Component:
+    ./components/chess-game.tsx
+    ./app/page.tsx
+[00:22:22.310] Server  LOG      ✓ Compiled in 89ms
+[00:22:50.085] Server  LOG      ✓ Compiled in 80ms
+[00:22:50.918] Browser ERROR   uncaughtError: ReferenceError: icon is not defined
+[00:23:00.839] Server  LOG      ✓ Compiled in 86ms
+[00:23:01.608] Browser ERROR   ./components/chess-game.tsx:685:14
+Parsing ecmascript source code failed
+  683 |           <span className="font-bold text-foreground">ChessMaster</span>
+  684 |         </div>
+> 685 |         {icon: streamline: }
+      |              ^
+  686 |         <div className="flex items-center gap-3">
+  687 |           {gameStarted && playerStats ? (
+  688 |             <div className="flex items-center gap-3 text-xs">
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./components/chess-game.tsx
+    ./app/page.tsx
+[00:23:17.778] Browser ERROR   ./components/chess-game.tsx:685:14
+Parsing ecmascript source code failed
+  683 |           <span className="font-bold text-foreground">ChessMaster</span>
+  684 |         </div>
+> 685 |         {icon: streamline:}
+      |              ^
+  686 |         <div className="flex items-center gap-3">
+  687 |           {gameStarted && playerStats ? (
+  688 |             <div className="flex items-center gap-3 text-xs">
+
+Expected '</', got ':'
+
+Import trace:
+  Server Component:
+    ./components/chess-game.tsx
+    ./app/page.tsx
+[00:27:32.941] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:27:32.960] Server  LOG      ✓ Compiled in 95ms
+[00:27:33.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:51.867] Server  LOG      ✓ Compiled in 110ms
+[00:28:48.701] Server  LOG      ✓ Compiled in 79ms
+[00:29:24.341] Server  LOG      ✓ Compiled in 83ms
+[01:36:48.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
